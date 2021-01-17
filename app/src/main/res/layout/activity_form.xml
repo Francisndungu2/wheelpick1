@@ -40,5 +40,31 @@
         android:inputType="textPassword"
         android:hint="password"
         />
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/penta_nsiri"
+            android:inputType="textPassword"
+            android:hint="confirm password"
+            />
+
+        <Button
+            android:id="@+id/open"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pik_siri"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="330dp"
+            android:background="@color/colorTextIcons"
+            android:text="submit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+
+    </android.support.v7.widget.CardView>
+
 
 </RelativeLayout>
