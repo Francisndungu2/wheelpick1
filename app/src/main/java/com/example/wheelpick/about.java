@@ -39,3 +39,14 @@ public class about extends AppCompatActivity {
 
     }
 
+    private void jsonrequest() {
+
+        request = new JsonArrayRequest(JSON_URL, new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+
+                JSONObject jsonObject  = null ;
+
+                for (int i = 0 ; i < response.length(); i++ ) {
+
+
