@@ -1,4 +1,4 @@
-package com.example.wheelpick;
+package com.example.wheelpick.Activities;
 
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.wheelpick.R;
 
 
 public class AnimeActivity extends AppCompatActivity {

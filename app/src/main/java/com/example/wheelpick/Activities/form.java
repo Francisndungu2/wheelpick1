@@ -1,4 +1,4 @@
-package com.example.wheelpick;
+package com.example.wheelpick.Activities;
 
 import android.content.Intent;
 
@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.wheelpick.R;
 
 
 public class form extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class form extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Intent intent = new Intent(form.this,about.class);
+                Intent intent = new Intent(form.this, about.class);
                 startActivity(intent);
 
             }

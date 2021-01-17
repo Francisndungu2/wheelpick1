@@ -9,14 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wheelpick">
-        <activity android:name=".AnimeActivity"></activity>
+        <activity android:name=".Activities.AnimeActivity"></activity>
         <activity
-            android:name=".about"
-            android:parentActivityName=".form" />
-        <activity
-            android:name=".form"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+            android:name=".Activities.form"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

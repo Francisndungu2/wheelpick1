@@ -1,14 +1,16 @@
-package com.example.wheelpick;
+package com.example.wheelpick.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
-
-import androidx.recyclerview.widget.RecyclerView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
+import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
+import com.example.wheelpick.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
