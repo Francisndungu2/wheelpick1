@@ -50,5 +50,18 @@ public class AnimeActivity extends AppCompatActivity {
         tv_rating.setText(rating);
         tv_studio.setText(studio);
 
+        collapsingToolbarLayout.setTitle(name);
 
+
+        RequestOptions requestOptions = new RequestOptions().centerCrop().placeholder(R.drawable.loading_shape).error(R.drawable.loading_shape);
+
+
+        // set image using Glide
+        Glide.with(this).load(image_url).apply(requestOptions).into(img);
+
+
+
+
+
+    }
 }
