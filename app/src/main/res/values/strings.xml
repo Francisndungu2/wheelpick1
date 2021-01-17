@@ -10,19 +10,4 @@
     <item name="textView" type="id" />
 
 
-    <string-array name="array_technology">
-        <item>suv</item>
-        <item>sedan</item>
-        <item>van</item>
-        <item>bus</item>
-        <item>truck</item>
-        <item>wagon</item>
-        <item>Hatchback</item>
-        <item>Convertible</item>
-        <item>Minivan</item>
-        <item>Minibus</item>
-        <item>Machinery</item>
-        <item>Pickup</item>
-    </string-array>
-
 </resources>

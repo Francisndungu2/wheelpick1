@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wheelpick">
+        <activity android:name=".AnimeActivity"></activity>
         <activity
             android:name=".about"
             android:parentActivityName=".form" />
