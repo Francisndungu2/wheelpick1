@@ -19,8 +19,21 @@ import java.util.List;
 
 public class about extends AppCompatActivity {
 
+    private final String JSON_URL = "https://gist.githubusercontent.com/Francisndungu2/f00e3432b7e0e71012dfa1f694b07644/raw/db8a46ed8c9f61544bac79781b6898492d85c50f/name.json" ;
+    private JsonArrayRequest request ;
+    private RequestQueue requestQueue ;
+    private List<Anime> lstAnime ;
+    private RecyclerView recyclerView ;
 
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        lstAnime = new ArrayList<>() ;
+        recyclerView = findViewById(R.id.recyclerviewid);
+        jsonrequest();
 
 
 
