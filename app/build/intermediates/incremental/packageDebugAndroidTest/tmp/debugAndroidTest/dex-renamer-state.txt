@@ -1,0 +1,7 @@
+#Wed Jan 06 11:59:05 EAT 2021
+base.0=/home/moringa/AndroidStudioProjects/wheelpick/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/moringa/AndroidStudioProjects/wheelpick/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/classes.dex

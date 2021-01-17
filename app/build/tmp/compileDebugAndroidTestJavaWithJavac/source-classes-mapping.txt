@@ -1,0 +1,4 @@
+com/example/wheelpick/test/BuildConfig.java
+ com.example.wheelpick.test.BuildConfig
+com/example/wheelpick/ExampleInstrumentedTest.java
+ com.example.wheelpick.ExampleInstrumentedTest
