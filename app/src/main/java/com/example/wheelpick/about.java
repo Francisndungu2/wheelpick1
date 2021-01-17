@@ -50,3 +50,48 @@ public class about extends AppCompatActivity {
                 for (int i = 0 ; i < response.length(); i++ ) {
 
 
+                    try {
+                        jsonObject = response.getJSONObject(i) ;
+                        Anime anime = new Anime() ;
+                        anime.setName(jsonObject.getString("name"));
+                        anime.setDescription(jsonObject.getString("description"));
+                        anime.setRating(jsonObject.getString("Rating"));
+                        anime.setCategorie(jsonObject.getString("categorie"));
+                        anime.setNb_episode(jsonObject.getInt("episode"));
+                        anime.setStudio(jsonObject.getString("studio"));
+                        anime.setImage_url(jsonObject.getString("img"));
+                        lstAnime.add(anime);
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+
+
+                }
+
+                setuprecyclerview(lstAnime);
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+
+        requestQueue = Volley.newRequestQueue(MainActivity.this);
+        requestQueue.add(request) ;
+
+
+    }
+
+    private void setuprecyclerview(List<Anime> lstAnime) {
+
+
+        RecyclerViewAdapter myadapter = new RecyclerViewAdapter(this,lstAnime) ;
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(myadapter);
+
+    }
+}
