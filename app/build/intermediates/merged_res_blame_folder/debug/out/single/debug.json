@@ -16,12 +16,16 @@
         "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/drawable/_5_.png"
     },
     {
-        "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/layout_activity_form.xml.flat",
-        "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/layout/activity_form.xml"
+        "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/layout_activity_anime.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/layout/activity_anime.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/layout_activity_form.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/layout/activity_form.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -48,6 +52,10 @@
         "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/layout_anime_row_item.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/layout/anime_row_item.xml"
+    },
+    {
         "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
@@ -62,6 +70,10 @@
     {
         "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/drawable_loading_shape.xml.flat",
+        "source": "/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/res/drawable/loading_shape.xml"
     },
     {
         "merged": "/home/moringa/AndroidStudioProjects/wheelpick1/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",

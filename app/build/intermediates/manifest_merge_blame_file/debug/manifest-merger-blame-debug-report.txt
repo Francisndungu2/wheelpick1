@@ -11,11 +11,11 @@
 9-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:5:5-25:19
+11-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
 12-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-13-->[com.android.support:support-compat:28.0.0] /home/moringa/.gradle/caches/transforms-2/files-2.1/2a6c121eda6c2cbe33230f54b72bbbd4/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.0] /home/moringa/.gradle/caches/transforms-2/files-2.1/817a61a686dfd849f92445d1d98580bd/core-1.3.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:7:9-43
@@ -28,32 +28,29 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.Wheelpick" >
 20-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:11:9-47
-21        <activity
-21-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:12:9-14:50
-22            android:name="com.example.wheelpick.about"
-22-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:13:13-34
-23            android:parentActivityName="com.example.wheelpick.form" />
-23-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:14:13-47
-24        <activity
-24-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:15:9-17:58
-25            android:name="com.example.wheelpick.form"
-25-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:16:13-33
-26            android:parentActivityName="com.example.wheelpick.MainActivity" />
-26-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:17:13-55
-27        <activity android:name="com.example.wheelpick.MainActivity" >
-27-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:18:9-24:20
-27-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:18:19-47
-28            <intent-filter>
-28-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:20:17-69
-29-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:22:17-77
-31-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+21        <activity android:name="com.example.wheelpick.Activities.AnimeActivity" />
+21-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:12:9-71
+21-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:12:19-59
+22        <activity
+22-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:13:9-15:69
+23            android:name="com.example.wheelpick.Activities.form"
+23-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:14:13-44
+24            android:parentActivityName="com.example.wheelpick.Activities.MainActivity" />
+24-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:15:13-66
+25        <activity android:name="com.example.wheelpick.Activities.MainActivity" >
+25-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:16:9-22:20
+25-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:16:19-58
+26            <intent-filter>
+26-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:18:17-69
+27-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:20:17-77
+29-->/home/moringa/AndroidStudioProjects/wheelpick1/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>

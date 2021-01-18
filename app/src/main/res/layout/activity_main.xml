@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.MainActivity">
+    tools:context=".activities.MainActivity">
 
 
     <Button
@@ -29,7 +29,11 @@
         android:layout_marginTop="-47dp"
         android:layout_marginEnd="-17dp"
         android:layout_marginBottom="-15dp"
-        app:srcCompat="@drawable/_" />
+        app:srcCompat="@drawable/_"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="-17dp" />
 
 
 </RelativeLayout>
