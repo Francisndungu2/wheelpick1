@@ -1,8 +1,6 @@
 package com.demotxt.myapp.myapplication.model;
 
-/**
- * Created by Aws on 11/03/2018.
- */
+
 
 public class Anime {
 
