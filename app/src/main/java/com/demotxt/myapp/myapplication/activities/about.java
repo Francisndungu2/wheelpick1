@@ -26,7 +26,7 @@ import java.util.List;
 
 public class about extends AppCompatActivity {
 
-    private final String JSON_URL = "https://gist.githubusercontent.com/Francisndungu2/f00e3432b7e0e71012dfa1f694b07644/raw/532ea918208825d46d24257130762770982a57a4/name.json" ;
+    private final String JSON_URL = "https://gist.githubusercontent.com/Francisndungu2/f00e3432b7e0e71012dfa1f694b07644/raw/99b2d8aad0b2aa8d6c30b5dbbd92f6714b43b079/name.json" ;
     private final String URL = "https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format=json" ;
 
 
@@ -103,5 +103,9 @@ public class about extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(myadapter);
 
+    }
+
+    public String getURL() {
+        return URL;
     }
 }
