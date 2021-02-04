@@ -26,8 +26,8 @@ import java.util.List;
 
 public class about extends AppCompatActivity {
 
-    private final String JSON_URL = "https://gist.githubusercontent.com/Francisndungu2/f00e3432b7e0e71012dfa1f694b07644/raw/99b2d8aad0b2aa8d6c30b5dbbd92f6714b43b079/name.json" ;
-    private final String URL = "https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format=json" ;
+    private final String JSON_URL = "https://gist.githubusercontent.com/Francisndungu2/bd14552f767aca7dba63bc29e1e28b05/raw/71722aacbc8ed4c1b12847b7a272c85140802910/joe.json" ;
+
 
 
     private JsonArrayRequest request ;
@@ -105,7 +105,5 @@ public class about extends AppCompatActivity {
 
     }
 
-    public String getURL() {
-        return URL;
-    }
+
 }
